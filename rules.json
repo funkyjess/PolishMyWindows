@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "category_order": [
+    "Images",
+    "Videos",
+    "Audio",
+    "Documents",
+    "Archives",
+    "Code",
+    "Installers",
+    "Fonts",
+    "Ebooks",
+    "DiskImages",
+    "Shortcuts",
+    "Other"
+  ],
+  "categories": {
+    "Images": {
+      "extensions": [".png", ".jpg", ".jpeg", ".gif", ".bmp", ".webp", ".tif", ".tiff", ".heic", ".svg"],
+      "name_keywords": ["screenshot", "img", "image", "photo", "wallpaper"]
+    },
+    "Videos": {
+      "extensions": [".mp4", ".mov", ".mkv", ".avi", ".wmv", ".webm", ".m4v"]
+    },
+    "Audio": {
+      "extensions": [".mp3", ".wav", ".flac", ".aac", ".m4a", ".ogg"]
+    },
+    "Documents": {
+      "extensions": [".pdf", ".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx", ".txt", ".rtf", ".md"],
+      "name_keywords": ["invoice", "receipt", "resume", "cv", "contract", "statement", "tax"]
+    },
+    "Archives": {
+      "extensions": [".zip", ".rar", ".7z", ".tar", ".gz"]
+    },
+    "Code": {
+      "extensions": [".py", ".js", ".ts", ".tsx", ".jsx", ".cs", ".cpp", ".c", ".h", ".hpp", ".java", ".go", ".rs", ".ps1", ".sh", ".json", ".yml", ".yaml", ".toml"],
+      "name_keywords": ["src", "project", "solution", "script"]
+    },
+    "Installers": {
+      "extensions": [".exe", ".msi", ".msix", ".appx", ".appxbundle"],
+      "name_keywords": ["setup", "installer"]
+    },
+    "Fonts": {
+      "extensions": [".ttf", ".otf", ".woff", ".woff2"]
+    },
+    "Ebooks": {
+      "extensions": [".epub", ".mobi", ".azw", ".azw3"]
+    },
+    "DiskImages": {
+      "extensions": [".iso", ".img"]
+    },
+    "Shortcuts": {
+      "extensions": [".lnk", ".url"]
+    },
+    "Other": {
+      "extensions": []
+    }
+  },
+  "grouping": {
+    "enabled": true,
+    "mode": "year_month",
+    "for_categories": ["Images", "Videos", "Audio", "Documents"]
+  },
+  "behavior": {
+    "skip_hidden": true,
+    "skip_system": true,
+    "skip_extensions": [".tmp", ".part", ".crdownload"],
+    "conflict_mode": "rename"
+  }
+}
